@@ -6,7 +6,7 @@
 
 /**
  * Approach -
- * We will bruteforce number of fingers that will be show Dima, then if total sum of fingers = 1 modulo (n+1), Dima will clean the room.
+ * We will bruteforce number of fingers that will be show Dima, then if total sum of fingers = 1 % (n+1), Dima will clean the room.
  * So we should increase answer if the remaining part after division by (n+1) is not 1.
  */
 
